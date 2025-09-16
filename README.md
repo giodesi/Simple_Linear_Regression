@@ -6,6 +6,17 @@ This project provides a comprehensive implementation of simple linear regression
 
 The implementation focuses on accessibility and generalization, enabling users to apply linear regression techniques to their own data without requiring extensive programming knowledge or statistical expertise. The project maintains scientific rigor while presenting complex concepts through intuitive visualizations and clear metrics.
 
+## Quick Links
+
+### Live Application
+Access the fully functional web application deployed on Hugging Face Spaces: [**Simple Linear Regression App**](https://huggingface.co/spaces/giodesi/Simple_Linear_Regression)
+
+### Project Resources
+The complete implementation includes both educational materials and production-ready code. The Jupyter notebook provides a comprehensive walkthrough of linear regression concepts with detailed explanations and visualizations, available at [`Simple-Linear-Regression.ipynb`](https://github.com/giodesi/Simple_Linear_Regression/blob/v1.0.0/Simple-Linear-Regression.ipynb). The source code for the Streamlit web application can be found in [`app.py`](https://github.com/giodesi/Simple_Linear_Regression/blob/v1.0.0/app.py), which implements the same functionality with an interactive interface suitable for any CSV dataset.
+
+### Version Information
+This documentation corresponds to version 1.0.0 of the Simple Linear Regression toolkit. The stable release tag ensures consistent behavior between the documentation and deployed application. Future updates will maintain backward compatibility while extending functionality based on user feedback and requirements.
+
 ## Components
 
 ### Jupyter Notebook: Simple-Linear-Regression.ipynb
