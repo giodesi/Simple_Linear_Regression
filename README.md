@@ -12,10 +12,10 @@ The implementation focuses on accessibility and generalization, enabling users t
 Access the fully functional web application deployed on Hugging Face Spaces: [**Simple Linear Regression App**](https://huggingface.co/spaces/giodesi/Simple_Linear_Regression)
 
 ### Project Resources
-The complete implementation includes both educational materials and production-ready code. The Jupyter notebook provides a comprehensive walkthrough of linear regression concepts with detailed explanations and visualizations, available at [`Simple-Linear-Regression.ipynb`](https://github.com/giodesi/Simple_Linear_Regression/blob/v1.0.1/Simple-Linear-Regression.ipynb). The source code for the Streamlit web application can be found in [`app.py`](https://github.com/giodesi/Simple_Linear_Regression/blob/v1.0.1/app.py), which implements the same functionality with an interactive interface suitable for any CSV dataset.
+The complete implementation includes both educational materials and production-ready code. The Jupyter notebook provides a comprehensive walkthrough of linear regression concepts with detailed explanations and visualizations, available at [`Simple-Linear-Regression.ipynb`](https://github.com/giodesi/Simple_Linear_Regression/blob/v1.0.2/Simple-Linear-Regression.ipynb). The source code for the Streamlit web application can be found in [`app.py`](https://github.com/giodesi/Simple_Linear_Regression/blob/v1.0.2/app.py), which implements the same functionality with an interactive interface suitable for any CSV dataset.
 
 ### Version Information
-This documentation corresponds to version 1.0.1 of the Simple Linear Regression toolkit. The stable release tag ensures consistent behavior between the documentation and deployed application. Future updates will maintain backward compatibility while extending functionality based on user feedback and requirements.
+This documentation corresponds to version 1.0.2 of the Simple Linear Regression toolkit. The stable release tag ensures consistent behavior between the documentation and deployed application. Future updates will maintain backward compatibility while extending functionality based on user feedback and requirements.
 
 ## Components
 
@@ -39,14 +39,14 @@ The Model Evaluation tab delivers comprehensive performance assessment through m
 
 ## Installation and Requirements
 
-The project requires Python 3.7 or higher with several scientific computing libraries. To establish the environment, first ensure Python is properly installed on your system. Then install the required dependencies using pip:
+The project requires Python 3.7 or higher (3.12.9 suggested) with several scientific computing libraries. To establish the environment, first ensure Python is properly installed on your system. Then install the required dependencies using pip:
 
 ```bash
-pip install streamlit==1.28.0
+pip install streamlit==1.44.0
 pip install pandas==2.2.3
-pip install numpy==2.2.0
-pip install matplotlib==3.9.3
-pip install scikit-learn==1.6.0
+pip install numpy==2.2.4
+pip install matplotlib==3.10.6
+pip install scikit-learn==1.6.1
 ```
 
 For Jupyter notebook execution, additionally install:
